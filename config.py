@@ -29,8 +29,8 @@ slack_client = SlackClient(SLACK_BOT_TOKEN) # do not change this parameter
 ######## Watson service configuration   ##########################
 ###################################################################
 
-service = watson_developer_cloud.AssistantV2(
-    iam_apikey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', # replace with Password
+service = watson_developer_cloud.AssistantV1(
+    iam_api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', # replace with Password
     version = '2018-09-20'
 )
 
