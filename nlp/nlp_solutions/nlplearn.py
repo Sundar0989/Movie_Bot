@@ -25,7 +25,7 @@ from config import onetime_file
 try:
     cosine_sim,indices, tfidf_fit1, tfidf_matrix1 = joblib.load(onetime_file)
 except:
-    pass
+    cosine_sim, indices, tfidf_fit1, tfidf_matrix1 = ['','','','']
 
 metadata = pd.read_csv('data/metadata_prep.csv')
 
