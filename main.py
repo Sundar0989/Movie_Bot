@@ -54,8 +54,10 @@ if __name__ == "__main__":
                 try:
                     if context['currentIntent'] in ['anything_else']:
                         follow_ind = 1
+                    else:
+                        follow_ind = 0
                 except:
-                    follow_ind = 0
+                    pass
                 
                 if current_action == 'end_conversation': # Based on the this, the context variables are reset
                     session_df = session_df[session_df.user != message_user+channel]
