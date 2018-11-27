@@ -45,3 +45,8 @@ Navigate to the folder where the main python script exists and run the code belo
 ```sh
 python3 main.py
 ```
+
+# Bot Design
+
+[](https://github.com/Sundar0989/Movie_Bot/blob/master/Bot%20design.png)
+
