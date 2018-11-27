@@ -13,7 +13,7 @@ import os
 import watson_developer_cloud
 from slackclient import SlackClient
 
-location = "Movie_Bot/"  # replace with the folder where you downloaded the github repo
+location = "/Users/xxxxxxxx/Downloads/Movie_Bot/"  # replace with the full folder path where you downloaded the github repo
 
 ###################################################################
 ######## Slack configuration   ##########################
