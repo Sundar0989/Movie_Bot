@@ -17,7 +17,7 @@ sys.path.append(os.path.normpath(os.getcwd()))
 import datetime
 import re
 import pandas as pd
-from config import hive_commands_path, log_interval, log_last_hour, location, follow_up_path, onetime_path
+from config import follow_up_path, location
 from dateutil.relativedelta import relativedelta
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
 
