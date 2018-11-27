@@ -66,7 +66,7 @@ After the NLP processing is completed, we have three outputs from it
 
 ### Step 4 and 5(Query the data):
 
-Currently, the data resides in a excel file. However, you can add multiple databases/excel files if needed to access different sources. Based on the results from step 3, the appropriate database/excel file is queried and the results are returned.
+Currently, the data resides in a excel file. However, you can add multiple databases/excel files if needed, to access different sources. Based on the results from step 3, the appropriate database/excel file is queried and the results are returned.
 
 ### Step 6 (Post the result to user):
 
