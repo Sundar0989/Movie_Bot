@@ -49,6 +49,6 @@ if __name__ == "__main__":
     
     process_log(log_line)
     
-    if follow_ind == 1:
+    if follow_ind == '1':
         followup_questions(message + '\n')
     
