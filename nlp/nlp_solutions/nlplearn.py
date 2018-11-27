@@ -22,7 +22,11 @@ sys.path.append(os.path.normpath(os.getcwd()))
 
 from config import onetime_file
 
-cosine_sim,indices, tfidf_fit1, tfidf_matrix1 = joblib.load(onetime_file)
+try:
+    cosine_sim,indices, tfidf_fit1, tfidf_matrix1 = joblib.load(onetime_file)
+except:
+    pass
+
 metadata = pd.read_csv('data/metadata_prep.csv')
 
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
