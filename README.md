@@ -2,7 +2,7 @@
 
 # Installation and Bot Setup
 
-This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below.
+This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below. When you download the folder, if it says Movie_Bot-master, please rename it to Movie_Bot to avoid any errors.
 
 ## Step 1: Create Slack Bot user
 
