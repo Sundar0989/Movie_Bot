@@ -10,11 +10,12 @@ Please follows the instructions in the link below to create a Slack App.
 
 https://github.com/Sundar0989/Movie_Bot/blob/master/slack/Create_slack_app.ipynb
 
-## Step 2: Create a IBM Watson account
+## Step 2: Create a IBM Watson account and Upload the bot.json workspace
 
 Please follows the instructions in the link below to create a Slack App.
 
 https://github.com/Sundar0989/Movie_Bot/blob/master/nlp/IBM_Watson_Conversation_setup.ipynb
+
 
 ## Step 3: Install required packages
 
