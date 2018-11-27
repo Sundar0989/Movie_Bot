@@ -29,16 +29,32 @@ It would be recommended to use Python 3.5.x or 3.6.x version for this project.
 
 Please make sure that you modified the API details both for Slack and Watson in the config.py file
 
-## Step 5: Create "onetime.txt" file
+## Step 5: Download data from source and perform Data Preparation
 
-Navigate to the folder where the you downloaded the scripts and execute the code below.
+The data for this example is downloaded from the location below,
+
+https://www.kaggle.com/rounakbanik/movie-recommender-systems/data
+
+Name of the dataset - movies_metadata.csv
+
+Since the dataset size is greater than 25MB, I provided only a snippet here in the data folder. However, the exercise is built on the entire dataset obtained from the source. Please download the data from Kaggle and use it for your practice.
+
+"metadata_prep.csv" will be created after you run the data preparation code which will be later used in nlp models to train the movie recommendation system. The data preparation code is provided below.
+
+https://github.com/Sundar0989/Movie_Bot/blob/master/data/Data_Preparation.ipynb
+
+I have uploaded the sample of the data here (metadata_prep_sample.csv).
+
+## Step 6: Create "onetime.txt" file
+
+Navigate to the folder where the main.py file resides and execute the code below.
 
 ```sh
 python3 nlp/nlp_solutions/onetime_run_file.py
 ```
-This will create the onetime.txt file automatically. If you need to rename this file, update the name in config.py file.
+This will create the "onetime.txt" file automatically. If you need to rename this file, update the name in "config.py" file.
 
-## Step 6: Initiate Bot
+## Step 7: Initiate Bot
 
 Navigate to the folder where the main python script exists and run the code below.
 
