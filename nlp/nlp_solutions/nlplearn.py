@@ -11,6 +11,8 @@
 from nltk.tokenize import word_tokenize
 import re
 import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
